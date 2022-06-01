@@ -3,11 +3,13 @@
   "serverSchemaVersion": 4,
   "pageOrder": [
     "Page1",
-    "Movies"
+    "Movies",
+    "Public.users"
   ],
   "publishedPageOrder": [
     "Page1",
-    "Movies"
+    "Movies",
+    "Public.users"
   ],
   "publishedDefaultPageName": "Page1",
   "unpublishedDefaultPageName": "Page1",
@@ -25,6 +27,22 @@
       "publishedUserSetOnLoad": false
     },
     "Movies_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Public.users_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Public.users_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Public.users_SelectQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Public.users_UpdateQuery": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     }
